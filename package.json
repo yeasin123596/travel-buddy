@@ -1,0 +1,14 @@
+{
+  "name": "travel-buddy",
+  "version": "1.0.0",
+  "description": "A simple app to post and find travel trips",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js"
+  },
+  "dependencies": {
+    "express": "^4.21.0",
+    "sqlite3": "^5.1.7"
+  }
+}
